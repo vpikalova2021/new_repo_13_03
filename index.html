@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Кино опрос</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="foto.html">
+        <fieldset>
+          <legend>Личные данные</legend>
+          <label>
+            ФИО
+            <input type="text" name="username"  required />
+          </label>
+          <label>
+            Номер телефона:
+            <input type="tel">	
+          </label>
+          <label>
+            Email
+            <input type="email" name="email" />
+          </label>
+          <label>Дата вашего рождения
+          <input id="user" type="date" name="birthday">
+          </label>
+          <legend>Ваш пол:</legend>
+          <label for="Indoor"> 
+            <input id="Indoor" type="radio" name="indoor-outdoor">Мужской
+        </label>
+        <label for="Outdoor">
+            <input id="Outdoor" type="radio" name="indoor-outdoor">Женский
+        </label>
+        <label for="Outdoor">
+            <input id="Outdoor" type="radio" name="indoor-outdoor">Не указан
+        </label>
+        </fieldset>
+      <fieldset>
+          <legend>Фильмы каких жанров вы смотрели больше в этом месяце?</legend>
+          <label>
+            <input type="checkbox" name="language" value="Боевик">
+            Боевик
+          </label>
+          <label>
+            <input type="checkbox" name="language" value="Детектив">
+            Детектив
+          </label>
+          <label>
+            <input type="checkbox" name="language" value="Драма">
+            Драма
+          </label>
+          <label>
+            <input type="checkbox" name="language" value="Боевик">
+            Боевик
+          </label>
+          <label>
+            <input type="checkbox" name="language" value="Исторический фильм">
+            Исторический фильм
+          </label>
+          <label>
+            <input type="checkbox" name="language" value="Комедия">
+            Комедия
+          </label>
+          <label>
+            <input type="checkbox" name="language" value="Приключенческий фильм">
+            Приключенческий фильм
+          </label>
+          <label>
+            <input type="checkbox" name="language" value="Трагедия">
+            Трагедия
+          </label>
+          <label>
+            <input type="checkbox" name="language" value="Триллер">
+            Триллер
+          </label>
+          <label>
+            <input type="checkbox" name="language" value="Ужасы">
+            Ужасы
+          </label>
+          <label>
+            <input type="checkbox" name="language" value="Фантастика">
+            Фантастика
+          </label>
+          <label>
+            <input type="checkbox" name="language" value="Катастрофа">
+            Катастрофа
+          </label>
+        </fieldset>
+      <fieldset>
+          <legend>Как часто вы смотрите фильмы в кинотеатрах?</legend>
+          <label>
+            <input type="radio" name="newsletter">
+            Раз в неделю
+          </label>
+          <label>
+            <input type="radio" name="newsletter">
+            Раз/несколько раз в неделю
+          </label>
+          <label>
+            <input type="radio" name="newsletter">
+            2-3 раза в месяц
+          </label>
+          <label>
+            <input type="radio" name="newsletter">
+            Раз в месяц
+          </label>
+          <label>
+            <input type="radio" name="newsletter">
+            Раз в 2-3 месяца
+          </label>
+          <label>
+            <input type="radio" name="newsletter">
+            Раз в полгода и реже
+          </label>
+          <label>
+            Другое
+          <input size="30" type="text">
+         </label>
+         </fieldset>
+        <fieldset>
+          <legend>Устраивает ли вас цена билета, для просмотра фильма?</legend>
+          <label>
+            <select>
+              <option value="xs" selected>Да</option>
+              <option value="s">Нормально</option>
+              <option value="m" >Нет</option>
+           </select> <br>
+           Почему, и какая для вас лучшая цена билета? <br>
+          <textarea name="feedback" rows="5"></textarea>
+          </label>
+        </fieldset>
+        <fieldset>
+          <legend>Итог</legend>
+          <label>
+            Во сколько вы закончили заполнять анкету?
+        <input id="user" type="time" name="wakeup"><br>
+          </label>
+          <label for="fav">Понравилась ли вам анкета?
+           <input list="school" name="fav" id="fav"/>
+           <datalist id="school">
+             <option>Да</option>
+             <option>Нет</option>
+           </datalist>
+          </label>
+        </fieldset>
+        <button type="submit">Отправить</button>
+        </form>
+</body>
+</html>

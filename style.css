@@ -1,0 +1,18 @@
+body {
+    font-family: sans-serif;
+    line-height: 1.5;
+    background: url(https://zaochnik.ru/uploads/2019/01/31/296663-p74ckw-471.jpg);
+    background-size: 100%;
+    background-attachment: fixed;
+}
+    label {
+    display: block;
+}
+    textarea{
+    width: 400px;
+}
+button{
+    text-align: center;
+    width:1410px;
+    font-size:20px;
+}
